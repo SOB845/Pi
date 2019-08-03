@@ -12,8 +12,8 @@ import Intro from './components/introtxt';
 class App extends Component {
   render() {
 
-    return (
-      <div className='App'>
+    return (                             //Change the color from here
+      <div className='App-header' style={{backgroundColor:'#FF6A00'}}>
       
       <BrowserRouter>
           <Navbar title = "Navbar"/>  
