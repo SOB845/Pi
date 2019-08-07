@@ -13,7 +13,7 @@ class App extends Component {
   render() {
 
     return (                             //Change the color from here
-      <div className='App-header' style={{backgroundColor:'#7405C8'}}>
+      <div className='App-header' style={{backgroundColor:'#1c213f'}}>
       
       <BrowserRouter>
           <Navbar title = "Navbar"/>  
